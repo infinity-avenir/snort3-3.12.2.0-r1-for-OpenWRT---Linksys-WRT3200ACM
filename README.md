@@ -44,16 +44,16 @@ Upload file to the target (from your computer to OpenWRT) :<br>
 scp -O ~/Desktop/OpenWRT/openwrt/bin/packages/arm_cortex-a9_vfpv3-d16/packages/*.apk   root@192.168.x.x:/tmp/snort3-3-12-pkg/<br>
 <br>
 # Install everything at once — apk resolves the order automatically<br>
-apk add --allow-untrusted \<br>
-  libdaq3-3.0.27-r1.apk \<br>
-  libdnet-1.16.1-r1.apk \<br>
-  libhwloc-2.12.1-r1.apk \<br>
-  liblzma-5.8.1-r1.apk \<br>
-  libnetfilter-queue1-1.0.5-r4.apk \<br>
-  libpciaccess-0.18.1-r1.apk \<br>
-  libtirpc-1.3.7-r2.apk \<br>
-  luajit-2.1.0-r8.apk \<br>
-  snort3-3.12.2.0-r1.apk<br>
+apk add --allow-untrusted \ <br>
+  libdaq3-3.0.27-r1.apk \ <br>
+  libdnet-1.16.1-r1.apk \ <br>
+  libhwloc-2.12.1-r1.apk \ <br>
+  liblzma-5.8.1-r1.apk \ <br>
+  libnetfilter-queue1-1.0.5-r4.apk \ <br>
+  libpciaccess-0.18.1-r1.apk \ <br>
+  libtirpc-1.3.7-r2.apk \ <br>
+  luajit-2.1.0-r8.apk \ <br>
+  snort3-3.12.2.0-r1.apk <br>
 <br>
 # Verify<br>
 snort --version<br>
